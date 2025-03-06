@@ -1,0 +1,135 @@
+### **BlueBox Overview**
+
+**One-Liner**
+
+Connecting VCs & Startups with Top M7 MBA Talent through career experiences.
+
+**Tag-line**
+
+Empowering MBA Talent to Build the Future of Startups and Venture Capital.
+
+---
+
+### **Mission Statement**
+
+To connect high-growth startups and venture capital firms with top, verified MBA talent, fostering meaningful career opportunities while addressing talent gaps in the innovation ecosystem.
+
+---
+
+**BlueBox** is a referral-only platform connecting top MBA talent with high-growth startups and venture capital firms. Designed to empower the next generation of innovators and investors, BlueBox bridges the gap between exceptional talent and transformative opportunities.
+
+**Our Mission**:
+
+To create a curated ecosystem where MBA students, startup founders, and venture capitalists collaborate, learn, and grow. BlueBox is more than a platform—it’s a dynamic community where meaningful connections drive impactful careers and ventures.
+
+**What Sets Us Apart**:
+
+- **Exclusive Access**: BlueBox is invite-only, ensuring that every member is a trusted, high-caliber contributor. Entry is based on referrals from existing members, fostering a network of like-minded and ambitious individuals.
+- **Tailored Opportunities**: AI-driven tools match MBA students with in-semester or summer internships, projects, and full-time roles that align with their skills and aspirations. Startups and VCs gain access to a curated pool of talent for their most critical roles.
+- **Engaging Community**: Beyond opportunities, BlueBox hosts vibrant discussions, mentorship programs, and exclusive events. Members can share insights, seek advice, and network with leaders in the startup and VC ecosystems.
+
+**Who We Serve**:
+
+- **MBA Students**: From the M7 MBA programs, seeking impactful roles in startups and venture capital. (We will continue expanding as we see interest and are able to support more talent).
+- **Startups and VCs**: Early- to growth-stage companies and VC firms looking for strategic and analytical entrepreneurial talent - already primed with prior work experience. From previous investment bankers to consultants to startup operators and investors — you’ll discover only the top talent here.
+
+**How to Join**:
+
+Membership to BlueBox is by referral only. This ensures a trusted and high-value network, where every connection is meaningful and every opportunity impactful.
+
+### **Key Features & Functionality**
+
+### **For MBA Students**
+
+- **Profiles**: Showcase skills, experiences, and career aspirations with a professional profile that highlights their unique strengths.
+    
+    [MBA Student Profiles](https://www.notion.so/MBA-Student-Profiles-16182534e4d280eb88b7ce3fe6ec48a1?pvs=21)
+    
+- **Role Matching**: AI-powered algorithms suggest roles that align with student skills and preferences. Free users can apply to 3 matches per week, while premium users unlock unlimited matches.
+- **Learning Resources**: Access to curated resources like case studies, industry insights, and community webinars. Premium students get advanced workshops, personalized mentorship sessions, and a database of all the VCs / startups on the platform - filterable by school, graduating year, etc.
+
+### **For Startups and VC Firms**
+
+- **Profiles**:
+
+[VC / Startup Profiles](https://www.notion.so/VC-Startup-Profiles-16182534e4d28070bcadd762d11bfd3b?pvs=21)
+
+- **Job Listings**: Post roles for free (up to 2 per month) or pay for priority placement to maximize visibility.
+- **Talent Search**: Search and filter candidate profiles with advanced tools, including AI-driven recommendations. Free users get limited searches, while premium users unlock unlimited access and pipeline analytics.
+- **Startup / VC Search:** See a limited list of fellow startups and VCs, filterable by school, graduating year, YC / Techstars, etc. Paid users can see and filter the entire list.
+- **Hiring Assistant**: A virtual assistant for pre-screening candidates and ranking them by fit, saving time and effort.
+- **Gamification**: Earn **Talent Credits** for actions like hiring through BlueBox or referring other startups. Use credits to post more roles, access premium candidates, or host private networking events.
+
+### **Community Features**
+
+- **Dynamic Social Feed**:
+    - Share insights, polls, milestones, and announcements specifically related to VC and Startups.
+    - Engage with likes, comments, and trending posts.
+    - Use hashtags for discoverability (#SeedFunding, #StartupTips).
+- **Role-Specific Discussions**:
+    - Threads tailored for students, startups, and VCs.
+    - Weekly themed topics like "AMA with a VC" or "Startup Growth Hacks."
+- **Networking & Events**:
+    - In-app messaging with limits for free users, unlimited for premium.
+    - Interactive events: panels, workshops, and AMAs with industry leaders.
+- **Private Groups**:
+    - Join curated groups for industries or interests (e.g., "HealthTech").
+    - Exclusive invite-only communities for premium users.
+- **Recruitment Challenges**:
+    - Sponsored case competitions and hackathons to connect talent with startups.
+- **Curated Learning Resources**:
+    - Premium workshops on pitching, fundraising, and startup growth. Or breaking into startups, starting a business, etc.
+
+---
+
+### **Freemium Business Model**
+
+### **For MBA Students**
+
+- **Free Tier**:
+    - Basic role matching and application tools.
+    - Apply to up to 3 employers per month. Can only see your most recommended.
+- **Premium Tier** ($10-$20/month or pay-per-use):
+    - Can see all available roles.
+    - Unlimited AI-driven role matches / applications.
+    - Advanced analytics on application performance and profile views.
+    - Exclusive access to top-tier job postings, mentorship programs, and premium events.
+    - “Super Connect” messages to priority employers.
+
+### **For Startups & VCs**
+
+- **Free Tier**:
+    - Post up to 2 roles per month.
+    - Basic talent search with limited access to profiles.
+    - Limited messaging (3 candidate messages per role).
+- **Premium Tier** ($50/month depending on scale):
+    - Unlimited job postings and candidate searches.
+    - Unlimited searching in the startup / VC CRM.
+    - Pipeline insights and analytics.
+    - Access to BlueBox’s Hiring Assistant for pre-screening and ranking applicants.
+
+---
+
+### **Revenue Streams**
+
+1. **Subscription Plans**:
+    - Monthly or annual subscriptions for students and employers.
+2. **Sponsored Roles & Challenges**:
+    - Startups and VCs can sponsor roles or host recruitment challenges to engage top-tier talent.
+3. **Premium Events**:
+    - Paid access to curated events, intimate networking sessions, and workshops.
+
+---
+
+### **Why BlueBox?**
+
+1. **Market Need**:
+    - MBA students increasingly seek opportunities in startups and VC, yet lack direct access to tailored roles.
+    - Startups and VCs need strategic, highly skilled talent but face challenges sourcing candidates efficiently.
+2. **Scalability**:
+    - Begin with MBA students and expand to other professional programs or early-career professionals.
+    - Build long-term partnerships with MBA programs, incubators, and accelerators.
+3. **Engagement-Driven Design**:
+    - The freemium model keep users engaged and incentivized to upgrade.
+4. **Differentiation**:
+    - BlueBox uniquely blends career opportunities and networking into a single platform designed for the startup and VC ecosystem.
