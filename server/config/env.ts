@@ -1,54 +1,8 @@
 import dotenv from 'dotenv';
-import { fileURLToPath } from 'url';
 import path from 'path';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// In production, look for .env file in the dist directory
-const envPath = process.env.NODE_ENV === 'production'
-  ? path.resolve(process.cwd(), '.env')
-  : path.resolve(__dirname, '../../.env');
-
-const result = dotenv.config({ path: envPath });
-
-if (result.error) {
-  console.warn('Warning: .env file not found');
-}
-
-// List of required environment variables
-const requiredEnvVars = [
-  'SESSION_SECRET',
-  'DATABASE_URL',
-  'NEWS_API_KEY',
-  'MAILMODO_API_KEY',
-  'MAILMODO_BASE_URL',
-  'MAILMODO_INTRO_CAMPAIGN_ID',
-  'CLIENT_BASE_URL',
-  'STRIPE_SECRET_KEY',
-  'STRIPE_PUBLISH_KEY',
-  'STRIPE_WEBHOOK_SECRET',
-  'PASSWORD_CHANGE_CAMPAIGN_ID',
-  'WELCOME_CAMPAIGN_ID',
-  'ACCOUNT_APPROVAL_CAMPAIGN_ID',
-  'PROFILE_COMPLETION_REMINDER_CAMPAIGN_ID',
-  'STUDENT_WEEKLY_SUMMARY_CAMPAIGN_ID',
-  'BUSINESS_WEEKLY_SUMMARY_CAMPAIGN_ID',
-  'REQUEST_CANDIDATE_INTERVIEW_CAMPAIGN_ID',
-  'STRIPE_STUDENT_PREMIUM_MONTHLY_PRICE_ID',
-  'STRIPE_STUDENT_PREMIUM_YEARLY_PRICE_ID',
-  'STRIPE_BUSINESS_PREMIUM_MONTHLY_PRICE_ID',
-  'STRIPE_BUSINESS_PREMIUM_YEARLY_PRICE_ID',
-  'STRIPE_BUSINESS_PREMIUM_PRODUCT_ID',
-  'STRIPE_STUDENT_PREMIUM_PRODUCT_ID',
-] as const;
-
-// Check for required environment variables
-requiredEnvVars.forEach(envVar => {
-  if (!process.env[envVar]) {
-    throw new Error(`Missing required environment variable: ${envVar}`);
-  }
-});
+// Load environment variables from .env file
+dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 
 // Export environment variables with types
 export const env = {
@@ -75,5 +29,37 @@ export const env = {
   STRIPE_BUSINESS_PREMIUM_PRODUCT_ID: process.env.STRIPE_BUSINESS_PREMIUM_PRODUCT_ID as string,
   STRIPE_STUDENT_PREMIUM_PRODUCT_ID: process.env.STRIPE_STUDENT_PREMIUM_PRODUCT_ID as string,
 };
+
+// Validate required environment variables
+const requiredEnvVars = [
+  'DATABASE_URL',
+  'NEWS_API_KEY',
+  'MAILMODO_API_KEY',
+  'MAILMODO_BASE_URL',
+  'MAILMODO_INTRO_CAMPAIGN_ID',
+  'CLIENT_BASE_URL',
+  'STRIPE_SECRET_KEY',
+  'STRIPE_PUBLISH_KEY',
+  'STRIPE_WEBHOOK_SECRET',
+  'PASSWORD_CHANGE_CAMPAIGN_ID',
+  'WELCOME_CAMPAIGN_ID',
+  'ACCOUNT_APPROVAL_CAMPAIGN_ID',
+  'PROFILE_COMPLETION_REMINDER_CAMPAIGN_ID',
+  'STUDENT_WEEKLY_SUMMARY_CAMPAIGN_ID',
+  'BUSINESS_WEEKLY_SUMMARY_CAMPAIGN_ID',
+  'REQUEST_CANDIDATE_INTERVIEW_CAMPAIGN_ID',
+  'STRIPE_STUDENT_PREMIUM_MONTHLY_PRICE_ID',
+  'STRIPE_STUDENT_PREMIUM_YEARLY_PRICE_ID',
+  'STRIPE_BUSINESS_PREMIUM_MONTHLY_PRICE_ID',
+  'STRIPE_BUSINESS_PREMIUM_YEARLY_PRICE_ID',
+  'STRIPE_BUSINESS_PREMIUM_PRODUCT_ID',
+  'STRIPE_STUDENT_PREMIUM_PRODUCT_ID',
+] as const;
+
+for (const envVar of requiredEnvVars) {
+  if (!env[envVar]) {
+    throw new Error(`Missing required environment variable: ${envVar}`);
+  }
+}
 
 export default env; 

@@ -22,7 +22,7 @@ const MemoryStoreSession = MemoryStore(session);
 
 // Session configuration
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'your-secret-key',
+  secret: 'your-secret-key',
   resave: false,
   saveUninitialized: false,
   store: new MemoryStoreSession({
